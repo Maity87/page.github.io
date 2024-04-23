@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showPage('home')">Home</a></li>
+            <li><a href="#" onclick="showPage('about')">About</a></li>
+            <li><a href="#" onclick="showPage('services')">Services</a></li>
+            <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div id="home" class="page">
+            <h2>Home</h2>
+            <p>Welcome to our website!</p>
+            <img src="C:\Users\suman\Downloads\36154f696cd69a994e2c093225177f1d.jpg" hight="200px" width="200px" >
+        </div>
+        
+        <div id="about" class="page">
+            <h2>About Us</h2>
+            <p>We are a web design company.</p>
+
+        </div>
+        
+        <div id="services" class="page">
+            <h2>Services</h2>
+            <ul>
+                <li>Web Design</li>
+                <img src="C:\Users\suman\Downloads\website-development-banner_33099-1687.jpg" hight="200px" width="200px" >
+                <li>Web Development</li>
+                <img src="C:\Users\suman\Downloads\360_F_354178616_uSdqA6i1A1vkkskFPKOoxQOED0ZMIcn3.jpg" hight="200px" width="200px" >
+                <li>SEO</li>
+                <img src="C:\Users\suman\Downloads\What_Are_the_Different_Types_of_SEO.jpg" hight="200px" width="200px" >
+            </ul>
+        </div>
+        
+        <div id="contact" class="page">
+            <h2>Contact</h2>
+            <p>Email us at: <a href="mailto:info@example.com">info@example.com</a></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
